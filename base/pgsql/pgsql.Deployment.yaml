@@ -67,7 +67,7 @@ spec:
           value: postgres://sg:@localhost:5432/?sslmode=disable
         - name: PG_EXPORTER_EXTEND_QUERY_PATH
           value: /config/queries.yaml
-        image: sourcegraph/postgres_exporter:insiders@sha256:ac8ef017099276edef5df78fba63d633e68bd881fa56882074f4710e09ebe1ed
+        image: sourcegraph/postgres_exporter:insiders@sha256:f17e1f22510cd8131fbce085e8b2a0c09e76813a40aaeef2118a77c7d00e1db2
         terminationMessagePolicy: FallbackToLogsOnError
         name: pgsql-exporter
         resources:
